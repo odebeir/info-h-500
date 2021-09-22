@@ -1,0 +1,36 @@
+site_name: INFO-H-500 Image Acquisition & Processing
+use_directory_urls: False
+#site_url: http://localhost:8000
+#repo_url: https://github.com/odebeir/info-h-500-501
+nav:
+  - Home: index.md
+ # - Notebook: nb1.ipynb
+  - Introduction:
+      Biological vision: Introduction/01/01-Biological_vision.md
+      Image sensors: Introduction/02/02-Image_sensors.md
+      Digital image: Introduction/03/03-Digital_image.ipynb
+  - LABS: labs.md
+  - References: references.md
+  - About: about.md
+  - test: mkdocs_tests.md
+theme:
+    name: mkdocs
+plugins:
+  - mkdocs-jupyter:
+      ignore_h1_titles: False
+      include_source: False
+      execute: True
+  - search
+  - mermaid2
+#  - pdf-export
+#  - print-site
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - def_list
+#  - pymdownx.superfences:
+#      custom_fences:
+#        - name: mermaid
+#          class: mermaid
+#          format: !!python/name:pymdownx.superfences.fence_code_format
