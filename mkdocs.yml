@@ -36,7 +36,7 @@ plugins:
   - mkdocs-jupyter:
       ignore_h1_titles: False
       include_source: False
-      execute: False
+      execute: True
   - search
   - mermaid2
 #  - pdf-export
