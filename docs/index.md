@@ -1,10 +1,7 @@
 # INFO-H-500 Image acquisition and processing
 
-
-![Placeholder](fig/title.jpg){ align=right }
-
-
-## Objectives (and/or specific learning outcomes)
+![intro](fig/title.jpg){align=right}
+## Objectives
 After following this course one shouldbe able to understand different kind of images,
 to analyse and decompose an image recognition problem into some basic steps,
 to propose features to extract from the raw data for a given problem,
@@ -22,7 +19,7 @@ More specificaly:
 * Human vision fundamentals 
 * Definitions : the image processing chain
 * Quantification : spatial, spectral and intensity color representation different acquisition modalities sensor,sensor+source,...
-* Acquisition devices : CCD, CMOS, vidicon ultrasound light time-of-flight (TOF)
+* Acquisition devices : CCD, CMOS, time-of-flight (TOF)
 * Notions of compression : run-length-coding, hierarchical decomposition, Jpeg lossy compression
 * Pre-processing - Histogram based image enhancement
 * Linear filtering Fourier transform

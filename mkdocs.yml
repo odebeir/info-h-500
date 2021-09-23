@@ -1,30 +1,49 @@
 site_name: INFO-H-500 Image Acquisition & Processing
-use_directory_urls: False
-#site_url: http://localhost:8000
-#repo_url: https://github.com/odebeir/info-h-500-501
+site_description: INFO-H-500 lecture and labs notes.
+repo_url: https://github.com/odebeir/test_mkdocs
+edit_uri: ""
+
+
+theme:
+    name: mkdocs
+    locale: en
+    #analytics: {gtag: 'G-274394082'}
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - django
+
+copyright: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /> maintained by </a>Olivier Debeir and <a href="">contributors</a>.
+
 nav:
   - Home: index.md
  # - Notebook: nb1.ipynb
-  - Introduction:
+  - 1.Introduction:
       Biological vision: Introduction/01/01-Biological_vision.md
       Image sensors: Introduction/02/02-Image_sensors.md
       Digital image: Introduction/03/03-Digital_image.ipynb
+  - 2.Low-level image processing:
+      Point processing: Low-level_image_processing/01-Point_processing.ipynb
+      Linear filters: Low-level_image_processing/02-Linear_filtering.ipynb
+      Non-linear filters: Low-level_image_processing/03-Non_linear_filtering.ipynb
+      Image restoration: Low-level_image_processing/04-Image_restoration.ipynb
+      Edge detection: Low-level_image_processing/05-Edge_detection.ipynb
   - LABS: labs.md
   - References: references.md
   - About: about.md
   - test: mkdocs_tests.md
-theme:
-    name: mkdocs
 plugins:
   - mkdocs-jupyter:
       ignore_h1_titles: False
       include_source: False
-      execute: True
+      execute: False
   - search
   - mermaid2
 #  - pdf-export
 #  - print-site
 markdown_extensions:
+  - toc:
+      permalink: 
   - admonition
   - pymdownx.details
   - attr_list
