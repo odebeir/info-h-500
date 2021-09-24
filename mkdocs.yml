@@ -28,6 +28,16 @@ nav:
       Non-linear filters: Low-level_image_processing/03-Non_linear_filtering.ipynb
       Image restoration: Low-level_image_processing/04-Image_restoration.ipynb
       Edge detection: Low-level_image_processing/05-Edge_detection.ipynb
+  - 3.Image segmentation:
+      Image procesing chain: Image_segmentation/00-Image_processing_chain.ipynb
+      Histogram based: Image_segmentation/01-Histogram_based_image_segmentation.ipynb
+      Border based segmentation: Image_segmentation/02-Border-based_segmentation.ipynb
+      Region based segmentation: Image_segmentation/03-Region_based_segmentation.ipynb
+      Model based segmentation:
+        Live-wire: Image_segmentation/04-Live-wire.ipynb
+        Active contours: Image_segmentation/05-Active_contour.ipynb
+        Hough transform: Image_segmentation/06-Hough_transform.ipynb
+      Examples: Image_segmentation/07-Examples.ipynb
   - LABS: labs.md
   - References: references.md
   - About: about.md
@@ -35,7 +45,7 @@ nav:
 plugins:
   - mkdocs-jupyter:
       ignore_h1_titles: False
-      include_source: False
+      include_source: True
       execute: True
   - search
   - mermaid2
