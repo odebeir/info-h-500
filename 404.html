@@ -17,13 +17,15 @@
         <script src="/js/jquery-1.10.2.min.js" defer></script>
         <script src="/js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/django.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="/index.html">INFO-H-500 Image Acquisition & Processing</a>
+                <a class="navbar-brand" href="/.">INFO-H-500 Image Acquisition & Processing</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -34,36 +36,104 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem">
-                                <a href="/index.html" class="nav-link">Home</a>
+                                <a href="/." class="nav-link">Home</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Introduction <b class="caret"></b></a>
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">1.Introduction <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="/Introduction/01/01-Biological_vision.html" class="dropdown-item">Biological vision</a>
+    <a href="/Introduction/01/01-Biological_vision/" class="dropdown-item">Biological vision</a>
 </li>
                                     
 <li>
-    <a href="/Introduction/02/02-Image_sensors.html" class="dropdown-item">Image sensors</a>
+    <a href="/Introduction/02/02-Image_sensors/" class="dropdown-item">Image sensors</a>
 </li>
                                     
 <li>
-    <a href="/Introduction/03/03-Digital_image.html" class="dropdown-item">Image representation</a>
+    <a href="/Introduction/03/03-Digital_image/" class="dropdown-item">Image representation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">2.Low-level image processing <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="/Low-level_image_processing/01-Point_processing/" class="dropdown-item">Histogram</a>
+</li>
+                                    
+<li>
+    <a href="/Low-level_image_processing/02-Linear_filtering/" class="dropdown-item">Linear filtering</a>
+</li>
+                                    
+<li>
+    <a href="/Low-level_image_processing/03-Non_linear_filtering/" class="dropdown-item">Rank based filters</a>
+</li>
+                                    
+<li>
+    <a href="/Low-level_image_processing/04-Image_restoration/" class="dropdown-item">Image restoration</a>
+</li>
+                                    
+<li>
+    <a href="/Low-level_image_processing/05-Edge_detection/" class="dropdown-item">Edge detection</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">3.Image segmentation <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="/Image_segmentation/00-Image_processing_chain/" class="dropdown-item">Typical image processing pipelines</a>
+</li>
+                                    
+<li>
+    <a href="/Image_segmentation/01-Histogram_based_image_segmentation/" class="dropdown-item">Histogram based segmentation</a>
+</li>
+                                    
+<li>
+    <a href="/Image_segmentation/02-Border-based_segmentation/" class="dropdown-item">Border based segmentation</a>
+</li>
+                                    
+<li>
+    <a href="/Image_segmentation/03-Region_based_segmentation/" class="dropdown-item">Region based segmentation</a>
+</li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Model based segmentation</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="/Image_segmentation/04-Live-wire/" class="dropdown-item">Model based segmentation</a>
+</li>
+            
+<li>
+    <a href="/Image_segmentation/05-Active_contour/" class="dropdown-item">Active contours</a>
+</li>
+            
+<li>
+    <a href="/Image_segmentation/06-Hough_transform/" class="dropdown-item">Hough transform</a>
+</li>
+    </ul>
+  </li>
+                                    
+<li>
+    <a href="/Image_segmentation/07-Examples/" class="dropdown-item">Examples</a>
 </li>
                                 </ul>
                             </li>
                             <li class="navitem">
-                                <a href="/labs.html" class="nav-link">LABS</a>
+                                <a href="/labs/" class="nav-link">LABS</a>
                             </li>
                             <li class="navitem">
-                                <a href="/references.html" class="nav-link">References</a>
+                                <a href="/references/" class="nav-link">References</a>
                             </li>
                             <li class="navitem">
-                                <a href="/about.html" class="nav-link">About</a>
+                                <a href="/about/" class="nav-link">About</a>
                             </li>
                             <li class="navitem">
-                                <a href="/mkdocs_tests.html" class="nav-link">test</a>
+                                <a href="/mkdocs_tests/" class="nav-link">test</a>
                             </li>
                         </ul>
 
@@ -73,6 +143,9 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/odebeir/test_mkdocs" class="nav-link"><i class="fa fa-github"></i> GitHub</a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -94,6 +167,7 @@
 
         <footer class="col-md-12">
             <hr>
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /> maintained by </a>Olivier Debeir and <a href="">contributors</a>.</p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>

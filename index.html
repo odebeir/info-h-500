@@ -5,7 +5,7 @@
 <meta charset="utf-8"/>
 <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="None" name="description"/>
+<meta content="INFO-H-500 lecture and labs notes." name="description"/>
 <link href="img/favicon.ico" rel="shortcut icon"/>
 <title>INFO-H-500 Image Acquisition &amp; Processing</title>
 <link href="css/bootstrap.min.css" rel="stylesheet"/>
@@ -15,12 +15,14 @@
 <script defer="" src="js/jquery-1.10.2.min.js"></script>
 <script defer="" src="js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/yaml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/django.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body class="homepage">
 <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
 <div class="container">
-<a class="navbar-brand" href="index.html">INFO-H-500 Image Acquisition &amp; Processing</a>
+<a class="navbar-brand" href=".">INFO-H-500 Image Acquisition &amp; Processing</a>
 <!-- Expander button -->
 <button class="navbar-toggler" data-target="#navbar-collapse" data-toggle="collapse" type="button">
 <span class="navbar-toggler-icon"></span>
@@ -30,33 +32,87 @@
 <!-- Main navigation -->
 <ul class="nav navbar-nav">
 <li class="navitem active">
-<a class="nav-link" href="index.html">Home</a>
+<a class="nav-link" href=".">Home</a>
 </li>
 <li class="dropdown">
-<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Introduction <b class="caret"></b></a>
+<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">1.Introduction <b class="caret"></b></a>
 <ul class="dropdown-menu">
 <li>
-<a class="dropdown-item" href="Introduction/01/01-Biological_vision.html">Biological vision</a>
+<a class="dropdown-item" href="Introduction/01/01-Biological_vision/">Biological vision</a>
 </li>
 <li>
-<a class="dropdown-item" href="Introduction/02/02-Image_sensors.html">Image sensors</a>
+<a class="dropdown-item" href="Introduction/02/02-Image_sensors/">Image sensors</a>
 </li>
 <li>
-<a class="dropdown-item" href="Introduction/03/03-Digital_image.html">Image representation</a>
+<a class="dropdown-item" href="Introduction/03/03-Digital_image/">Image representation</a>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">2.Low-level image processing <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="Low-level_image_processing/01-Point_processing/">Histogram</a>
+</li>
+<li>
+<a class="dropdown-item" href="Low-level_image_processing/02-Linear_filtering/">Linear filtering</a>
+</li>
+<li>
+<a class="dropdown-item" href="Low-level_image_processing/03-Non_linear_filtering/">Rank based filters</a>
+</li>
+<li>
+<a class="dropdown-item" href="Low-level_image_processing/04-Image_restoration/">Image restoration</a>
+</li>
+<li>
+<a class="dropdown-item" href="Low-level_image_processing/05-Edge_detection/">Edge detection</a>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">3.Image segmentation <b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="Image_segmentation/00-Image_processing_chain/">Typical image processing pipelines</a>
+</li>
+<li>
+<a class="dropdown-item" href="Image_segmentation/01-Histogram_based_image_segmentation/">Histogram based segmentation</a>
+</li>
+<li>
+<a class="dropdown-item" href="Image_segmentation/02-Border-based_segmentation/">Border based segmentation</a>
+</li>
+<li>
+<a class="dropdown-item" href="Image_segmentation/03-Region_based_segmentation/">Region based segmentation</a>
+</li>
+<li class="dropdown-submenu">
+<a class="dropdown-item" href="#">Model based segmentation</a>
+<ul class="dropdown-menu">
+<li>
+<a class="dropdown-item" href="Image_segmentation/04-Live-wire/">Model based segmentation</a>
+</li>
+<li>
+<a class="dropdown-item" href="Image_segmentation/05-Active_contour/">Active contours</a>
+</li>
+<li>
+<a class="dropdown-item" href="Image_segmentation/06-Hough_transform/">Hough transform</a>
+</li>
+</ul>
+</li>
+<li>
+<a class="dropdown-item" href="Image_segmentation/07-Examples/">Examples</a>
 </li>
 </ul>
 </li>
 <li class="navitem">
-<a class="nav-link" href="labs.html">LABS</a>
+<a class="nav-link" href="labs/">LABS</a>
 </li>
 <li class="navitem">
-<a class="nav-link" href="references.html">References</a>
+<a class="nav-link" href="references/">References</a>
 </li>
 <li class="navitem">
-<a class="nav-link" href="about.html">About</a>
+<a class="nav-link" href="about/">About</a>
 </li>
 <li class="navitem">
-<a class="nav-link" href="mkdocs_tests.html">test</a>
+<a class="nav-link" href="mkdocs_tests/">test</a>
 </li>
 </ul>
 <ul class="nav navbar-nav ml-auto">
@@ -71,9 +127,12 @@
                                 </a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="Introduction/01/01-Biological_vision.html" rel="next">
+<a class="nav-link" href="Introduction/01/01-Biological_vision/" rel="next">
                                     Next <i class="fa fa-arrow-right"></i>
 </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://github.com/odebeir/test_mkdocs"><i class="fa fa-github"></i> GitHub</a>
 </li>
 </ul>
 </div>
@@ -91,7 +150,7 @@
 <ul class="nav flex-column">
 <li class="nav-item" data-level="1"><a class="nav-link" href="#info-h-500-image-acquisition-and-processing">INFO-H-500 Image acquisition and processing</a>
 <ul class="nav flex-column">
-<li class="nav-item" data-level="2"><a class="nav-link" href="#objectives-andor-specific-learning-outcomes">Objectives (and/or specific learning outcomes)</a>
+<li class="nav-item" data-level="2"><a class="nav-link" href="#objectives">Objectives</a>
 <ul class="nav flex-column">
 </ul>
 </li>
@@ -109,9 +168,9 @@
 </div>
 </div></div>
 <div class="col-md-9" role="main">
-<h1 id="info-h-500-image-acquisition-and-processing">INFO-H-500 Image acquisition and processing</h1>
-<p><img align="right" alt="Placeholder" src="fig/title.jpg"/></p>
-<h2 id="objectives-andor-specific-learning-outcomes">Objectives (and/or specific learning outcomes)</h2>
+<h1 id="info-h-500-image-acquisition-and-processing">INFO-H-500 Image acquisition and processing<a class="headerlink" href="#info-h-500-image-acquisition-and-processing" title="Permanent link"></a></h1>
+<p><img align="right" alt="intro" src="fig/title.jpg"/></p>
+<h2 id="objectives">Objectives<a class="headerlink" href="#objectives" title="Permanent link"></a></h2>
 <p>After following this course one shouldbe able to understand different kind of images,
 to analyse and decompose an image recognition problem into some basic steps,
 to propose features to extract from the raw data for a given problem,
@@ -123,13 +182,13 @@ to implement an image processing chain using generic tools and specialized libra
 <li>Apply basic filtering and denoising</li>
 <li>Be able to segment an image using some of the classical methods</li>
 </ul>
-<h2 id="course-content">Course content</h2>
+<h2 id="course-content">Course content<a class="headerlink" href="#course-content" title="Permanent link"></a></h2>
 <ul>
 <li>Introduction: examples of application of the image processing from several domains, medical applications, industry, HCI...</li>
 <li>Human vision fundamentals </li>
 <li>Definitions : the image processing chain</li>
 <li>Quantification : spatial, spectral and intensity color representation different acquisition modalities sensor,sensor+source,...</li>
-<li>Acquisition devices : CCD, CMOS, vidicon ultrasound light time-of-flight (TOF)</li>
+<li>Acquisition devices : CCD, CMOS, time-of-flight (TOF)</li>
 <li>Notions of compression : run-length-coding, hierarchical decomposition, Jpeg lossy compression</li>
 <li>Pre-processing - Histogram based image enhancement</li>
 <li>Linear filtering Fourier transform</li>
@@ -144,15 +203,16 @@ to implement an image processing chain using generic tools and specialized libra
 <li>Hough transform</li>
 <li>Object description binary, image labelling, chain code, polygonal approximation, Fourier descriptors, invariant moments, convexity, fractal dimension, texture</li>
 </ul>
-<h2 id="laboratories">Laboratories</h2>
+<h2 id="laboratories">Laboratories<a class="headerlink" href="#laboratories" title="Permanent link"></a></h2>
 <p>In parallel to the lectures, a serie of labs are is organized. 
 The student are invited to reuse lecture material given as Jupyter Python Notebooks during the laboratory.</p>
-<p><a href="labs.html">go to the LAB page</a> </p>
+<p><a href="labs/">go to the LAB page</a> </p>
 <p><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" style="border-width:0"/></a></p></div>
 </div>
 </div>
 <footer class="col-md-12">
 <hr/>
+<p><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" style="border-width:0"/> maintained by </a>Olivier Debeir and <a href="">contributors</a>.</p>
 <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
 </footer>
 <script>
@@ -225,5 +285,5 @@ The student are invited to reuse lecture material given as Jupyter Python Notebo
 </html>
 <!--
 MkDocs version : 1.2.2
-Build Date UTC : 2021-09-22 13:55:52.332841+00:00
+Build Date UTC : 2021-09-24 13:52:44.845329+00:00
 -->
