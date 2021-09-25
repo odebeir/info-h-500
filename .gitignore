@@ -1,6 +1,4 @@
 .idea/
 site/
 /Link_to_info-h-500-501/
-/docs/.ipynb_checkpoints/
-/docs/LABS/.ipynb_checkpoints/
-/docs/fig/.ipynb_checkpoints/
+*/.ipynb_checkpoints/
