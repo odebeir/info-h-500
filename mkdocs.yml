@@ -2,7 +2,7 @@ site_name: INFO-H-500 Image Acquisition & Processing
 site_description: INFO-H-500 lecture and labs notes.
 repo_url: https://github.com/odebeir/test_mkdocs
 edit_uri: ""
-
+use_directory_urls: false
 
 theme:
     name: mkdocs
