@@ -21,7 +21,7 @@ In fact, evolution has followed two different path to add vision capabilities, f
 Vertebrates and octopuses developed the camera eye independently.
 In the vertebrate version (left figure) the nerve fibers pass in front of the retina, and there is a blind spot where the nerves pass through the retina. In the vertebrate example, **4** represents the blind spot, which is notably absent from the octopus eye (right figure). In vertebrates, **1** represents the retina and **2** is the nerve fibers, including the optic nerve (**3**), whereas in the octopus eye, **1** and **2** represent the nerve fibers and retina respectively.[[evolution of the eye - wikipedia](https://en.wikipedia.org/wiki/Evolution_of_the_eye)]
 
-    
+
 ![png](output_10_0.png)
     
 <sup>[Wikimedia Commons](https://en.wikipedia.org/wiki/Evolution_of_the_eye#/media/File:Evolution_eye.svg)<sup>
@@ -30,7 +30,7 @@ In the vertebrate version (left figure) the nerve fibers pass in front of the re
 
 Human vision rely on two principal organs: the eyes, and the brain. 
 
-   
+
 ![png](output_14_0.png)
     
 <sup>[wikimedia commons](https://commons.wikimedia.org/wiki/File:Three_Internal_chambers_of_the_Eye.png)<sup>
@@ -45,7 +45,7 @@ The ~100 million rods cover the entire retina, while the ~10 million cones cover
 
 Actually, the eye do not gives a full resolution image on the complete field of view at ones, to have a complete picture (litteraly), the brain has to merge image information taken by the most spatially resolved part of the eye, the fovea, while the eye is *scanning* the scene.
 
-    
+
 ![png](output_18_0.png)
 
 <sup>[image source](https://en.wikipedia.org/wiki/Photoreceptor_cell)<sup>
@@ -64,7 +64,7 @@ But the retina itself has a limited dynamic range, i.e. the total intensity vari
 The illustration above, shows the same image with a dynamic of 256 levels (left) and only 32 levels (right). With only 32 levels, one can see false contours appearing in large continuous regions (e.g. the sky). But for the eft image, it is almost impossible to discriminate very close graylevels from each other.
 
 However thanks to the agile displacement ot the eye and the reconstruction of the brain, we are able to look at scenes with a very high dynamic range as illustrated below (with much more than 255 levels!).
- 
+
 
 ![jpeg](output_24_0.jpg)
     
@@ -72,9 +72,9 @@ However thanks to the agile displacement ot the eye and the reconstruction of th
 
 The anatomy of the retina is composed of several layers, it is interesting to note that a typical nervous signal speed is ~100 m/s, and its commutation time is about 25 Hz. We can therefore be estonished by how fast our vision is able to process some information. In fact, the natural vision *processing power* is hidden in the high parallelism achieved by the complete chain of 100.000.000.000 interconnected neurons!
 
-    
+
 ![png](output_27_0.png)
-    
+
 
 <sup>[image source](http://www.slideshare.net/schwartzcm/ch-10-senses-part-ii)<sup>
 
@@ -94,7 +94,7 @@ The phenomenon of **lateral inhibition** occurs when a stimulus is applied to ne
 
 Color perception is enabled by the presence of 3 types of cones in the retina. The sensitivity spectrum of these cones is spread over the visible spectrum as illustrated below.
 
-    
+
 ![png](output_33_0.png)
     
 
@@ -109,7 +109,7 @@ Other species developped a vision in a shifted spectrum (e.g. bees can see some 
 
 
 ![jpeg](output_36_0.jpg)
-    
+
 
 <sup>[wikimedia commons](https://commons.wikimedia.org/wiki/File:UV_and_Vis_Sunscreen.jpg)<sup>
 
@@ -133,13 +133,13 @@ Because of the, so to speak, slow speed of firing of the chemico-physical proces
 
 Here are some classical optical illusions that can trick your eye, maybe machine vision can be used here to avoid some troubles...
 
-    
+
 ![jpeg](output_42_0.jpg)
         
 ![png](output_43_0.png)
     
 ![png](output_44_0.png)
-    
+
 
 <sup>By Original by Edward H. Adelson, this file by Gustavb [Copyrighted free use], via Wikimedia Commons<sup>
 
