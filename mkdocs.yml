@@ -38,6 +38,11 @@ nav:
         Active contours: Image_segmentation/05-Active_contour.ipynb
         Hough transform: Image_segmentation/06-Hough_transform.ipynb
       Examples: Image_segmentation/07-Examples.ipynb
+  - 4.Morphomathematics:
+      Basic operators
+      Combined operators
+      Watershed transform
+      Graylevel morphology
   - LABS: labs.md
   - References: references.md
   - About: about.md
