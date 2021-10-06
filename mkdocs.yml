@@ -43,6 +43,11 @@ nav:
       Combined operators: Morphomathematics/02-Combined_operations.ipynb
       Watershed transform: Morphomathematics/03-Watershed_transform.ipynb
       Graylevel morphology: Morphomathematics/04-Graylevel_morphology.ipynb
+  - 5.Objects features:
+      Statistical features: Feature_extraction/01-Statistical_features.ipynb
+      Contour features: Feature_extraction/02-Contour_features.ipynb
+      Moments: Feature_extraction/03-Moments.ipynb
+      Texture features: Feature_extraction/04-Texture_features.ipynb
   - LABS: labs.md
   - References: references.md
   - About: about.md
