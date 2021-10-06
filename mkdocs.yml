@@ -39,10 +39,10 @@ nav:
         Hough transform: Image_segmentation/06-Hough_transform.ipynb
       Examples: Image_segmentation/07-Examples.ipynb
   - 4.Morphomathematics:
-      Basic operators
-      Combined operators
-      Watershed transform
-      Graylevel morphology
+      Basic operators: Morphomathematics/01-Operators.ipynb
+      Combined operators: Morphomathematics/02-Combined_operations.ipynb
+      Watershed transform: Morphomathematics/03-Watershed_transform.ipynb
+      Graylevel morphology: Morphomathematics/04-Graylevel_morphology.ipynb
   - LABS: labs.md
   - References: references.md
   - About: about.md
