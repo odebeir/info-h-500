@@ -41,7 +41,6 @@ nav:
   - LABS: labs.md
   - References: references.md
   - About: about.md
-  - test: mkdocs_tests.md
 plugins:
   - mkdocs-jupyter:
       ignore_h1_titles: False
