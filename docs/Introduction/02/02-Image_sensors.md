@@ -32,9 +32,9 @@ This is the more common acquisition setup, external light source flood the scene
 ### Object attenuates the source
 Source and sensor can be placed on both side of the object being imaged, a good example is the X-Ray imaging, where a X-Ray source project photon trough a patient, these photon interact with the matter in such a way that tissue density and composition (bones vs soft tissues) can give a contrast variation at the sensor level.
 
-    
+
 ![jpeg](output_14_0.jpg)
-    
+
 
 <sup>[image source](https://en.wikipedia.org/wiki/X-ray#/media/File:Lung_X-ray.jpg)<sup>
 
@@ -61,7 +61,7 @@ In order to move charges along the dimensions of the CCD sensor, charges are mov
 
 Because all the pixels charges are compared using the same circuit, the CCD sensor provide a very constant specification on the complete sensor. The other main advantage of the sensor is the coverage factor of the sensor (the ratio between the sensor surface and the total pixel surface), almost the surface is devoted to light acquisition (no extra circuitry needed).
 
-    
+
 ![png](output_22_0.png)
     
 <sup>[wikimedia commons](https://commons.wikimedia.org/wiki/File%3ACcd_schematic.JPG)<sup>
@@ -74,9 +74,9 @@ Because all the pixels charges are compared using the same circuit, the CCD sens
 Linear CCD sensor.
 <sup>[wikimedia commons](https://commons.wikimedia.org/wiki/File:CCD_line_sensor.JPG)<sup>
 
-    
+
 ![jpeg](output_26_0.jpg)
-    
+
 
 CCD line sensor in a ceramic dual in-line package. 
 <sup>[wikimedia commons](https://commons.wikimedia.org/wiki/File:CCD_in_camera.jpg)<sup>
@@ -122,9 +122,9 @@ Color acquisition is done by acquiring several images at different wavelength, o
 
 The choice of duplicating green is done for symetry purposes and also because the intensity sensitivity of the eye (see rods) is correlated to the green part of the spectrum.
 
-    
+
 ![png](output_36_0.png)
-    
+
 
 <sup>[wiki commons](https://en.wikipedia.org/wiki/Bayer_filter#/media/File:Bayer_pattern_on_sensor.svg)<sup>
 
@@ -132,9 +132,9 @@ One limitation of the dye approach is the resolution limitation, indeed the imag
 
 The other method used is based on three CCD coupled on the same optical axis and having three different dyes (red, green, blue) as illustrated bellow.
 
-    
+
 ![png](output_39_0.png)
-    
+
 
 <sup>[wikimedia commons](https://commons.wikimedia.org/wiki/File:Dichroic-prism.svg)<sup>
 
@@ -178,7 +178,7 @@ Landsat 8 (American Earth observation satellite)
 AVIRIS - airborne visible/infrared imaging spectrometer 
 * four linear spectrometers (614-pixel wide) / 224 adjacent spectral bands.
 
-    
+
 ![jpeg](output_42_0.jpg)
     
 <sup>[wikimedia commons](https://commons.wikimedia.org/wiki/File:HyperspectralCube.jpg)<sup>
@@ -208,7 +208,7 @@ For example, the first generation of the Kinect sensor uses the principe of stru
     
 <sup>[wikimedia commons](https://commons.wikimedia.org/wiki/File:Xbox-360-Kinect-Standalone.png)<sup>
 
-    
+
 ![jpeg](output_50_0.jpg)
     
 <sup>[image source](https://www.mattcutts.com/blog/open-kinect-contest/)<sup>
@@ -237,7 +237,7 @@ $$g(t) = \cos(\omega t)$$ with $\omega$ the modulation frequency
 * received signal after the return trip to the scene surface:
 $$s(t) = b + a \cos(\omega t +\phi)$$ where $a$ is an unknown attenuation, $\phi$ the phase shift **i.e. a value proportional to the scene distance** and $b$ an unknown acquisition noise (neglected here).
 
-    
+
 ![png](output_61_0.png)
     
 
@@ -250,7 +250,7 @@ $$ d(\tau) = \frac a 2 \cos(\omega t + \phi) + b $$
 * sample $d(\tau)$ at 4 distinct moments (phase offsets):
 $$A_i = d(i.\frac \pi 2)  \text{ with } i = 0,\dots, 3$$
 
-    
+
 ![png](output_64_0.png)
     
 
@@ -264,9 +264,9 @@ $$dist = \frac{c}{4.\pi.\omega} \phi$$ where $c$ is the speed of light.
 
 What a depth image looks like ?
 
-    
+
 ![jpeg](output_67_0.jpg)
-    
+
 
 <sup>[wikimedia commons](https://commons.wikimedia.org/wiki/File:TOF_Kamera_3D_Gesicht.jpg)<sup>
 
@@ -277,7 +277,7 @@ Image can also be the result of a mathematical reconstruction based on an indire
 For example, computed tomography, uses a series of 1D density profile acquisition enable a 2D reconstruction of the slice.
     
 ![jpeg](output_70_0.jpg)
-    
+
 
 <sup>[image source]('http://130.237.83.53/medicaldevices/album/Ch%207%20Medical%20images/slides/F%207-10%20Computer%20tomography.jpg')<sup>
 
