@@ -36,16 +36,16 @@ nav:
       Model based segmentation:
         Live-wire: Image_segmentation/04-Live-wire.ipynb
         Active contours: Image_segmentation/05-Active_contour.ipynb
-      Detection:
-        Hough transform: Image_segmentation/06-Hough_transform.ipynb
-        Corners detection: Corners_detection/detectors.ipynb
       Examples: Image_segmentation/07-Examples.ipynb
-  - 4.Morphomathematics:
+  - 4.Detection:
+      Hough transform: Image_segmentation/06-Hough_transform.ipynb
+      Corners detection: Corners_detection/detectors.ipynb
+  - 5.Morphomathematics:
       Basic operators: Morphomathematics/01-Operators.ipynb
       Combined operators: Morphomathematics/02-Combined_operations.ipynb
       Watershed transform: Morphomathematics/03-Watershed_transform.ipynb
       Graylevel morphology: Morphomathematics/04-Graylevel_morphology.ipynb
-  - 5.Objects features:
+  - 6.Objects features:
       Statistical features: Feature_extraction/01-Statistical_features.ipynb
       Contour features: Feature_extraction/02-Contour_features.ipynb
       Moments: Feature_extraction/03-Moments.ipynb
