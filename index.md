@@ -33,6 +33,7 @@ More specificaly:
 * Region based : split and merge, watershed(recall) mean-shift
 * Hough transform
 * Object description binary, image labelling, chain code, polygonal approximation, Fourier descriptors, invariant moments, convexity, fractal dimension, texture
+* Corner detection
 
 ## Laboratories
 
