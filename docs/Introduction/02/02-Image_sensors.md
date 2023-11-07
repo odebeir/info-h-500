@@ -42,7 +42,7 @@ Source and sensor can be placed on both side of the object being imaged, a good 
 
 ### CCD - coupled charge device
 
-Charges are liberated by light interaction with the semiconductor inside photoactive region, for each pixel of the sensor grid. In order to digitize the amount of charges (proportinal to light captured, CCD devices will move the charges along the substrate up to a charge to voltage converter.
+Charges are liberated by light interaction with the semiconductor inside photoactive region, for each pixel of the sensor grid. In order to digitize the amount of charges (proportinal to light captured), CCD devices will move the charges along the substrate up to a charge to voltage converter.
 
 Coupled Charge Device uses electrode potentials to move charges inside silicium substrate as illustrated bellow.
 
