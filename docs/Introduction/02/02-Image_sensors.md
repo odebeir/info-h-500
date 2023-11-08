@@ -57,7 +57,7 @@ Image sensor can have essentially two types of geometry:
 * linear: typically used when the sensor is translated (flatbed scanner, but also bank note scanner, satellite, photo finish)
 * rectangular: almost every other camera
 
-In order to move charges along the dimensions of the CCD sensor, charges are moved along each image line, a perpendicular buffer is the used to discharge all these pixels in column into an amplifier that transform each charge into a voltage. The voltage is then converted by an ADC circuit. 
+In order to move charges along the dimensions of the CCD sensor, charges are moved along each image line, a perpendicular buffer is then used to discharge all these pixels in column into an amplifier that transform each charge into a voltage. The voltage is then converted by an ADC circuit. 
 
 Because all the pixels charges are compared using the same circuit, the CCD sensor provide a very constant specification on the complete sensor. The other main advantage of the sensor is the coverage factor of the sensor (the ratio between the sensor surface and the total pixel surface), almost the surface is devoted to light acquisition (no extra circuitry needed).
 
@@ -85,7 +85,7 @@ CCD line sensor in a ceramic dual in-line package.
 
 The CMOS technology embeds a photo-detector and a charge amplifier for each sensor pixel, the voltage being then transmitted by electrical conductors.
 
-This strategy enables a greater variety of sensor usage, e.g. adressing a part of the senor (for low resolution and higher speed).
+This strategy enables a greater variety of sensor usage, e.g. adressing a part of the sensor (for low resolution and higher speed).
 
 Because the conversion is done separately for each pixels, no charge shifting is needed, but discrepency between charge amplifier may exist, giving unequal pixel sensitivity and noise.
     
